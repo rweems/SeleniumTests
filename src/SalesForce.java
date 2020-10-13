@@ -18,8 +18,6 @@ public class SalesForce {
 
         driver.findElement(By.cssSelector(".button.r4.wide.primary")).click();
 
-
-
     }
 }
 
