@@ -14,7 +14,7 @@ public class ActionDemo {
         Actions a = new Actions(driver);
         a.moveToElement(driver.findElement(By.cssSelector("a[id='nav-link-accountList']")))
                 .moveToElement(driver.findElement(By.cssSelector("input[id='twotabsearchtextbox']")))
-                .click().keyDown(Keys.SHIFT).sendKeys("hello")
+                .click().keyDown(Keys.SHIFT).sendKeys("Hello")
                 .build()
                 .perform();
 
